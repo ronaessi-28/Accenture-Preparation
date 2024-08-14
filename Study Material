@@ -1,0 +1,210 @@
+
+Accenture Interview Prepration 
+@bzlearnin
+
+Interview Process At Accenture
+Eligibility: To take this exam, you should have at least scored 65% or 6.5 CGPA in your graduation. There must be no active backlogs. For some colleges, Accenture has kept no percentage criteria.
+This exam consists of 3 sections including:
+Online Assessment: Cognitive Assessment, Technical Assessment and Coding
+Communication Assessment
+Interview Round
+
+
+
+First, you need to pass Cognitive and Technical assessment. After passing these assessments,  you will have to take the Coding Test.  After Coding Test, you will have to give communication assessment and then, the Accenture interview round (which includes technical and HR interview round).
+
+Accenture Interview Exam Pattern
+
+Test Round
+
+Sections
+
+Time and Questions
+Cognitive Ability 
+Abstract Reasoning (15 ques): Picture based
+Critical  Reasoning (18 ques)
+Verbal (17 ques)
+(50 min, 50 Ques)
+
+Technical Assessment
+Common Applications in MS Word (10 ques)
+Pseudocode (18 ques)
+Network Security and Cloud (10 ques)
+(40 min, 40 Ques)
+Coding
+ 
+(45 min, 2 Ques)
+Communication Assessment 
+ 
+(30 min, 20-25 Ques)
+
+
+
+
+Cognitive Ability : https://shorturl.at/dGyMY
+Technical Assessment: https://shorturl.at/KJcic
+Coding Questions: https://shorturl.at/QxVfZ
+HR Interview Questions: https://shorturl.at/vyMD0
+
+Accenture Interview Questions and Answers for Java Developers
+
+Q1. Why do we use Springboot?
+Ans. Through Springboot, you can create standalone applications that can run on their own. There is no need to rely on an external web server. You can do this by embedding a web server into your application during the initialization process. Springboot framework reduces overall development time and increases efficiency through a default setup for unit and integration tests. 
+Q2. Is Springboot better than Spring?
+Ans. Spring Boot provides embedded container support. It comes with the provision to independently run the jars through the command java -jar. There is the option to exclude dependencies so that one can avoid potential jar conflicts while deploying in an external container. Spring boot is better to use for developing simple Spring-based applications and RESTful services. It simplified the Java EE development so that developers can be more productive.
+Q3. Explain the Spring MVC flow.
+Ans. Spring MVC is a JAVA framework that is used for building web applications. 
+According to the diagram, you can see that each incoming request is intercepted by DispatcherServlet that acts as front controller.
+Once DispatcherServlet gets the entry of handler mapping from XML file, it forwards this request to the controller.
+The controller then returns an object of ModelAndView.
+DispatcherServlet checks the entry of the view resolver in XML file. Then, it invokes the specified view component.
+Q4. Explain the basic difference between method overloading and overriding.
+Ans. Overloading occurs when two or more methods have the same name but different parameters in the same class. Overriding occurs when the method signature (name and parameters) are the same in both superclass and child class.
+Q5. Where do we use static keywords in Java?
+Ans. Static keywords are used with block, variable, method and nested classes for the purpose of memory management as follows:
+Block: It helps in initializing static data members.
+Variable: It helps in creating a single copy of the variable that is shared across every object of a class.
+Class: Static class cannot access the non-static members of the outer class.
+Method: Static methods can only directly call other static methods and can directly access the static data.
+Q6. What are the advantages of microservice?
+Ans. Microservices are independently manageable services. These services minimize the impact on existing services. You can change and upgrade every service individually instead of the need to upgrade the entire application.
+Q7. What is the difference between Abstract Class and Interface?
+Abstract class
+Interface
+It can have both methods: abstract and non-abstract.
+It can only have abstract methods. It can also have default and static methods since Java 8.
+It does not support multiple inheritance.
+It supports multiple inheritance.
+An abstract class can have final, non-final, non-static and static variables.
+It can only have static and final variables.
+It provides the implementation of interface.
+It cannot provide the implementation of abstract class.
+5) Abstract keyword is used for declaing abstract class.
+The interface keyword is used for declaring the interface.
+6) It can extend another Java class and can also implement multiple Java interfaces.
+It can only extend another Java interface.
+7) An abstract class can be extended using keyword “extends”.
+An interface can be implemented using keyword “implements”.
+8) A Java abstract class can have private, protected, etc as class members
+By default, the members of Java interface are public.
+
+Q8. Is it possible to implement multiple interfaces in a single Java class?
+Ans. Yes, it is possible to implement multiple interfaces in a single Java class. Java supports multiple inheritance through interfaces, allowing a class to inherit or implement multiple interfaces.
+Q9. How can we implement multiple interfaces in single Java class?
+Ans. To implement multiple interfaces, you can use the implements keyword that are followed by comma-separated list of interface names. The class must provide implementations for all the methods declared in each interface it implements. Here is an example demonstrating the implementation of multiple interfaces:
+public class MyClass implements Interface1, Interface2, Interface3
+{
+   // Implement methods from Interface1
+   // Implement methods from Interface2
+   // Implement methods from Interface3
+}
+In the above example, MyClass is implementing three interfaces: Interface1, Interface2, and Interface3. It is required to provide implementations for all the methods defined in each interface.
+By implementing multiple interfaces, a Java class can inherit and use the methods and behaviors defined in each interface, allowing for greater flexibility and code reuse.
+
+
+
+Question 10:- Explain your project.
+Answer:-
+Talk about your final year project. Focus on your contribution to the project, what work you did, how you completed your tasks, problems you faced, etc. The interviewer will also ask about your teamwork and leadership skills from this question.
+Question 11:- What is call by value and call by reference in C Programming language?
+Answer:-
+We can pass value to function by two different ways: call by value and call by reference.
+In case of call by value, a copy of value is passed to the function, so original value is not modified in the call by value.
+But in case of call by reference, an address of value is passed to the function, so original value is modified in the call by reference.
+Question 12:- Why there are no global variables in Java?
+Answer:-
+Global variables are globally accessible. Java does not support globally accessible variables due to following reasons:
+1)The global variables breaks the referential transparency
+2)Global variables creates collisions in namespace
+Question 13:- What is method overloading and method overriding?
+Answer:-
+Method overloading: When a method in a class having the same method name with different arguments is said to be method overloading. 
+Method overriding: When a method in a class having the same method name with same arguments is said to be method overriding.
+Question 14:- What is the difference between a constructor and a method?
+Answer:-
+A constructor is a member function of a class that is used to create objects of that class. It has the same name as the class itself, has no return type, and is invoked using the new operator.
+A method is an ordinary member function of a class. It has its own name, a return type (which may be void), and is invoked using the dot operator.
+Question 15:- What is meant by Inheritance and what are its
+advantages?
+Answer:-
+Inheritance is the process of inheriting all the features from a class. 
+The advantages of inheritance are:-
+ reusability of code 
+accessibility of variables and methods of the super class by subclasses.
+Question 16:- What is SQL, and why is it important?
+Answer:-
+SQL stands for Structured Query Language, and is the most important data processing language in use today. It is not a complete programming language like Java or C#, but a data sublanguage used for creating and processing database data and metadata. All DBMS products today use SQL.
+Question 17:- What is recursion in C?
+Answer:-
+Using recursion, one function can be called multiple times. This reduces the code length, reducing the overall complexity of the program.
+Question 18:- Write a program to find whether a number is a prime
+number or not.
+Answer:- check the solution in any coding laguage.
+Question 19:- Write a program to find the reverse of a number.
+Answer:- check the solution in any coding laguage.
+Accenture Interview Questions for Associate Profile
+Q1. How should you create, run and terminate a thread?
+Ans. To create a thread, you can declare a variable of that thread class or you can use new to create one. To run a thread, you have to call ThreadFunc() of that thread. The thread will terminate when the execution of a thread reaches the return point or executes the call to Exit().
+Q2. What is the difference between BRD and SRS?
+Ans. BRD is focused on the requirements of business and stakeholders and why these requirements are being taken. It is used in the initiation phases. On the other hand, SRS focuses on both functional and non-functional requirements to understand what requirements are being taken. It is used in the planning phases. 
+Q3. What is the test environment of API?
+Ans. API’s test environment takes effort to set up. To set this test environment, you will need the configuration of the database and server. This will depend on the requirement of the software. Once the installation process is complete, you will need API verification for the proper operation. During this process, the API that is called from the original environment is set up with various parameters in order to study the test results.
+Q4. How do you perform API testing?
+Ans. First of all, we will choose the suite for adding the API test case. After that, we will choose a test development mode. Now, demand the development of test cases for needed API methods. Configure the application’s control parameters and then test the conditions. Now, configure method validation and then, execute the API test. Check the test reports and then filter the API test cases. In the end, arrange every API test case.
+Q5. What is a use case and which process do you follow to make it? 
+Ans. The use case is a methodology that is used for identifying, clarifying and organizing system requirements during system analysis. It is a set of sequences related to a goal that are possible between users and systems in a particular environment. The use case is available as a document for user reference so that the user can take the necessary steps to complete an activity. Through the use case document, you can identify areas of error during a transaction. There are three essential elements in every use case:
+Actor: It is the system user (one or more) that is interacting with the process.
+Goal: The final outcome required for completing the process.
+System. Steps were taken to reach the goal. This includes the necessary functional requirements and the anticipated behaviour.
+Q6. How do you understand the client’s needs? 
+Ans. We must understand our client’s business model to accurately understand their requirements. Along with that, we must pay attention to what they are trying to say. Their words will convey what they need. According to that, create a plan and get it confirmed by the client. Revise the plan if there are still more requirements that are not included in the plan.
+Q7. Why do we use Pandas in Python?
+Ans. Pandas is an open-source software library that is used for data manipulation and analysis in Python. This library offers several data structures and operations. Pandas provide various methods including ’empty’, ‘axes’, ‘values’, ‘size’, head() and tail(). It can deal with different file types.
+Q8. Explain classifier in Python.
+Ans. In Python, classifier refers to an algorithm for predicting class of input elements based on set of features. This algorithm is mainly used in supervised learning and machine learning. It uses training data for obtaining understandability in relation between input variables and classes.
+
+
+Accenture Technical Interview Questions
+Question 1:- Write a program to calculate the length of a string without
+using the strlen() function.
+Answer:- 
+Question 2:- What is virtual inheritance?
+Answer:-
+Virtual inheritance is a C++ mechanism that assures that grandchild-derived classes inherit only one copy of a base class’s member variables. If two classes B and C inherit from a class A, and class D inherits from both B and C, D will include two copies of A’s member variables: one via B and the other via C. Using scope resolution, these will be available independently.
+Question 3:- What is JDBC?
+Answer:-
+JDBC is a set of Java API for executing SQL statements. This API consists of a set of classes and interfaces to enable programs to write pure Java Database applications.
+Question 4:- List the Coffman’s conditions that lead to a deadlock.
+Answer:-
+Mutual Exclusion: Only one process may use a critical resource at a time.
+Hold & Wait: A process may be allocated some resources while waiting for others.
+No Pre-emption: No resource can be forcible removed from a process holding it.
+Circular Wait: A closed chain of processes exist such that each process holds at least one resource needed by another process in the chain.
+Question 5:- What are short, long and medium-term scheduling?
+Answer:-
+Long term scheduler determines which programs are admitted to the system for processing. It controls the degree of multiprogramming. Once admitted, a job becomes a process.
+Medium term scheduling is part of the swapping function. This relates to processes that are in a blocked or suspended state. They are swapped out of real-memory until they are ready to execute. The swapping-in decision is based on memory-management criteria.
+Short term scheduler, also know as a dispatcher executes most frequently, and makes the finest-grained decision of which process should execute next. This scheduler is invoked whenever an event occurs. It may lead to interruption of one process by preemption.
+Question 6:- What is diamond problem in JAVA?
+Answer:-
+Diamond problem also known as deadly diamond problem or deadly diamond of death, occurs when multiple inheritance is conducted in JAVA. JAVA does not support multiple inheritance, and therefore consequently leads to a compilation error if attempted.
+Question 7:- What is AVL tree?
+Answer:-
+AVL stands for Adelson Velskii and Landis. In a binary search tree, if the difference between height of the left and right subtrees is at most one, it is known as AVL tree.
+Read More at AVL Tree
+Question 8:- Define Linked List.
+Answer:-
+Linked List is a linear data structure where data is stored sequentially.
+Read More at Linked List
+Question 9:- What is an overflow error?
+Answer:-
+Overflow errors occur when a program is given an input outside its scope.
+Question 10:- Write a code for octal to decimal conversion.
+Answer:-
+Program in C
+Program in C++
+Program in JAVA
+Program in Python
+
+
+
